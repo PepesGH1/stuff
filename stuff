@@ -1,0 +1,6 @@
+local player = game:GetService'Players'.LocalPlayer.Character
+local head = player:WaitForChild("Head")
+        if (head) then
+            head.Transparency = 1
+            head.face.Transparency = 1
+end
