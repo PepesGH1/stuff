@@ -15,7 +15,7 @@ local C1, C2, C3;
 local Nav = {Flying = false, Forward = false, Backward = false, Left = false, Right = false}
 C1 = UIS.InputBegan:Connect(function(Input)
     if Input.UserInputType == Enum.UserInputType.Keyboard then
-        if Input.KeyCode == Enum.KeyCode.E then
+        if Input.KeyCode == Enum.KeyCode.C then
             Nav.Flying = not Nav.Flying
             Root.Anchored = Nav.Flying
         elseif Input.KeyCode == Enum.KeyCode.W then
