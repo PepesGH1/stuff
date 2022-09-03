@@ -1,7 +1,7 @@
 local Speed = 50
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LegitH3x0R/Roblox-Scripts/main/AEBypassing/RootAnchor.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/RootAnchor.lua"))()
 local UIS = game:GetService("UserInputService")
 local OnRender = game:GetService("RunService").RenderStepped
 
@@ -67,10 +67,3 @@ while true do -- not EndAll
         end
     end
 end
-
---[[C1:Disconnect()
-C2:Disconnect()
-C3:Disconnect()
-if Nav.Flying then
-    Root.Anchored = false
-end]]
