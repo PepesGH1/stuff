@@ -1,6 +1,6 @@
 ALLYCOLOR = {255,255,255}  
 ENEMYCOLOR =  {255,0,0} 	
-TRANSPARENCY = 0.8			
+TRANSPARENCY = 0.5			
 HEALTHBAR_ACTIVATED = false 	
 function createFlex()
 players = game:GetService("Players")
