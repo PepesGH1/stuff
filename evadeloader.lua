@@ -18,3 +18,7 @@ end
 if game.PlaceId == 10530697691 then
    loadstring(game:HttpGet(("https://raw.githubusercontent.com/PepesGH1/stuff/main/evade.lua"), true))()
 end
+
+if game.PlaceId == 10808838353 then
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/PepesGH1/stuff/main/evade.lua"), true))()
+end
