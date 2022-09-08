@@ -1,4 +1,4 @@
-local Speed = 50
+local Speed = 75
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PepesGH1/stuff/main/RootAnchor.lua"))()
