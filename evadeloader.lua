@@ -1,4 +1,5 @@
---By pepes, for scriptblox.com
+-- By pepes, for scriptblox.com
+-- https://scriptblox.com/u/pepes
 if game.PlaceId == 9872472334 then
    loadstring(game:HttpGet(("https://raw.githubusercontent.com/PepesGH1/stuff/main/evade.lua"), true))()
 end
