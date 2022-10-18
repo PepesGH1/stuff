@@ -39,8 +39,7 @@ local function scriptings()
 	local script = Instance.new('LocalScript', Frame)
 	while true do
         wait()
-        local hum = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-        local speed = math.floor(hum.Velocity.Magnitude)
+        local speed = math.floor(game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity.Magnitude)
         script.Parent.TextLabel.Text = speed.." u/s"
 	end
 end
